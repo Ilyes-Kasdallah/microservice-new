@@ -2,7 +2,9 @@ package com.p2mproject.orderservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-@EnableEurekaClient
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@EnableDiscoveryClient
 @SpringBootApplication
 public class OrderServiceApplication {
 
