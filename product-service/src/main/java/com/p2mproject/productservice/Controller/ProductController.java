@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController /// declare a class as a restful controller // to indicate that the class will handle HTTP request and return the responses
-@RequestMapping("/api/product") // any http request in this path with be handled by the methods of this controller
+@RequestMapping("/api/product") // any http request in this path will be handled by the methods of this controller
 @RequiredArgsConstructor /// inject dependencies into the controller
 public class ProductController {
 
